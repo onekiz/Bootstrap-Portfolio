@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Bootstrap Index
+	</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<style type="text/css">
+
+
+	.imageicon1, .imageicon3{
+    	border-radius: 8px;
+    	position: relative;
+    	animation-name: links;
+    	animation-duration: 4s;
+    	animation-iteration-count: infinite;
+	}
+
+	@keyframes links {
+    	0%   {left:0px; top:0px;}
+    	25%  {left:0px; top:0px; width:30%; height:30%;}
+    	50%  {left:0px; top:0px;}
+    	75%  {left:0px; top:0px;}
+    	100% {left:0px; top:0px;}
+	}
+		.imageicon2{
+    	border-radius: 8px;
+    	position: relative;
+    	animation-name: link;
+    	animation-duration: 4s;
+    	animation-iteration-count: infinite;
+	}
+
+	@keyframes link {
+    	0%   {left:0px; top:0px;}
+    	25%  {left:0px; top:0px;}
+    	50%  {left:0px; top:0px;}
+    	75%  {left:0px; top:0px; width:30%; height:30%;}
+    	100% {left:0px; top:0px;}
+	}
+
+</style>
+
+
+</head>
+
+
+<body style="position: relative; background-image: url(https://github.com/onekiz/Basic-Portfolio/blob/master/assets/images/concrete-texture.png?raw=true);">
+
+	<nav class="navbar navbar-default hidden-xs">
+		<ul class="nav nav-pills">
+  			<li style="background-color: #4aaaa5; color: #777777; margin-left: 25px; padding:0 5px 5px 5px;"><h3>ONUR EKIZ</h3></li>
+  			<li style="float:right; border-right:1px solid #bbb;"><a href="contact.html" target="_self">Contact</a></li>
+  			<li style="float:right;border-right:1px solid #bbb;"><a href="portfolio.html" target="_self">Portfolio</a></li>
+  			<li style="float:right;border-right:1px solid #bbb;"><a href="index.html" target="_self">About Me</a></li>
+		</ul>
+	</nav>
+
+
+	<nav class="navbar navbar-default hidden-sm hidden-md hidden-lg">
+		<ul class="nav nav-pills">
+  			<li class="myName" style="width: 100%; color: #777777; text-align: center; background-color: #4aaaa5;"><h2>ONUR EKIZ</h2></li>
+  			<li style="width: 33%; border-right:1px solid #bbb; text-align: center;"><a href="index.html" target="_self">About Me</a></li>
+  			<li style="width: 32%; border-right:1px solid #bbb; text-align: center;"><a href="portfolio.html" target="_self">Portfolio</a></li>
+  			<li style="width: 32%; text-align: center;"><a href="contact.html" target="_self">Contact Me</a></li>
+		</ul>
+	</nav>
+
+ 	
+ 	<div class="container">
+   
+
+		<div class="row" style="margin-bottom: 100px;">
+	
+			<div class="col-sm-6" style="padding:10px; color: #777777; background-color: #ffffff;">
+				<h2 style= "border-bottom: 1px solid #bbb; margin-bottom: 30px; color:#777777;">Contact Menu</h2>
+
+					<form>
+   					 	<div class="form-group">
+      						<label for="firstname">First Name:</label>
+      						<input type="text" class="form-control" id="firstname">
+   						</div>
+    					<div class="form-group">
+      						<label for="lastname">Last Name:</label>
+     						<input type="text" class="form-control" id="lastname">
+ 						</div>
+ 						<div class="form-group">
+      						<label for="comment">Comment:</label>
+      						<textarea class="form-control" rows="5" id="comment"></textarea>
+    					</div>
+
+    					<button type="button" class="btn btn-success">Submit</button>
+  					</form>
+		    </div>
+			
+
+			<div class="col-sm-5 col-sm-offset-1" style="padding-bottom:10px; background-color: #ffffff;">
+				<h2 style= "border-bottom: 1px solid #bbb; margin-bottom: 30px; color:#777777;">Connect With Me</h2>
+				
+				<img class="imageicon1" src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="image1" width="50" height="50">
+				<img class="imageicon2" src="https://cdn4.iconfinder.com/data/icons/free-large-twitter-icons/512/Twitter_button.png" alt="image2" width="50px" height="50px">
+				<img class="imageicon3" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png " alt="image3" width="50px" height="50px">
+			</div>
+		</div>
+	</div>
+
+
+<div class="panel-footer" style="position: absolute; bottom:0; width: 100%; background-color: #666666; color:#bbb; border-top: 3px solid #4aaaa5; text-align: center;">Copyright2017 ONUR EKIZ</div>
+
+</body>
+</html>
